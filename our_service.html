@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services</title>
+
+  <!-- font familly  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- font awesome cdn-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- animated css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- aos cdn link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- tailwind css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./assets/JS/tailwind.config.js"></script>
+
+  <link rel="stylesheet" href="./assets/CSS/global.css" />
+  <link rel="stylesheet" href="./assets/CSS/main.css" />
+  <link rel="stylesheet" href="./assets/CSS/responsive.css" />
+</head>
+
+<body>
+  <!-- header section  start-->
+  <header class="header_main_contanier">
+    <nav class="header_container">
+      <!-- logo -->
+      <a href="./index.html" class="logo w-38.7 xssm:w-44.2">
+        <img src="./assets/img/logo/logo.png" alt="bongoit_logo">
+      </a>
+      <!-- nav_items -->
+      <ul class="nav_items font-normal">
+        <li><a href="./index.html" class="nav_item ">Home</a></li>
+        <li><a href="./about_us.html" class="nav_item">About us</a></li>
+        <li class="relative sub_menu_parrent">
+          <a href="./our_service.html" class="nav_item flex gap-2 items-center">Our Services <svg
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+            </i></a>
+
+          <!-- sub menu items container -->
+          <ul class="bg-white absolute sub_menu_container">
+            <div class="submenu_shape"> </div>
+            <li class="grid gap-4.6 lg:grid-cols-3 2xl:grid-cols-4">
+              <!-- single sub item -->
+              <a href="./website_design_and_dev.html" class="sub_item rounded-lg card cursor-pointer">
+                <div><img class="w-12.4 web_icon" src="./assets/img/home_img/our_offers_icons/web.png" alt="web-icon">
+                </div>
+                <div>
+                  <p class="font-bold text-dark-500 text-16 flex flex-col">Web Design & Development
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+
+                  </p>
+                </div>
+              </a>
+              <!-- single sub item -->
+              <a href="./app_development.html" class="sub_item rounded-lg card cursor-pointer">
+                <div><img class="w-12.4 app_dev_icon" src="./assets/img/product_icons/user-interface.png"
+                    alt="trafic-icon"></div>
+                <div>
+                  <p class="font-bold text-dark-500 text-16 flex flex-col">Apps Development
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+
+                  </p>
+                </div>
+              </a>
+              <!-- single sub item -->
+              <a href="./graphics_desgin.html" class="sub_item rounded-lg card cursor-pointer">
+                <div><img class="w-12.4 graphics_icon" src="./assets/img/product_icons/graphic-designer.png"
+                    alt="trafic-icon"></div>
+                <div>
+                  <p class="font-bold text-dark-500 text-16 flex flex-col">Graphic Design
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+
+                  </p>
+                </div>
+              </a>
+              <!-- single sub item -->
+              <a href="./2dand3d.html" class="sub_item rounded-lg card cursor-pointer">
+                <div><img class="w-12.4 towd_3d_icon" src="./assets/img/home_img/our_offers_icons/2d3d.png"
+                    alt="trafic-icon"></div>
+                <div>
+                  <p class="font-bold text-dark-500 text-16 flex flex-col">2D & 3D Animation
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+                  </p>
+                </div>
+              </a>
+              <!-- single sub item -->
+              <a href="./software-development.html" class="sub_item rounded-lg card cursor-pointer">
+                <div><img class="w-12.4 soft_dev_icon" src="./assets/img/home_img/our_offers_icons/softdev.png"
+                    alt="softdev-icon"></div>
+                <div>
+                  <p class="font-bold text-dark-500 text-16 flex flex-col">Software Development
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+
+                  </p>
+                </div>
+              </a>
+              <!-- single sub item -->
+              <a href="./erp-seo-pos.html" class="sub_item rounded-lg card cursor-pointer">
+                <div><img class="w-12.4 erp_icon" src="./assets/img/home_img/our_offers_icons/erp.png" alt="erp-icon">
+                </div>
+                <div>
+                  <p class="font-bold text-dark-500 text-16 flex flex-col">ERP, POS API
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+
+                  </p>
+                </div>
+              </a>
+              <!-- single sub item -->
+              <a href="./e-commerce.html" class="sub_item rounded-lg card cursor-pointer">
+                <div><img class="w-12.4 e_commerce_icon" src="./assets/img/home_img/our_offers_icons/e-commerce.png"
+                    alt="e-commerce-icon"></div>
+                <div>
+                  <p class="font-bold text-dark-500 text-16 flex flex-col">E-ecommerce Website & App
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+
+                  </p>
+                </div>
+              </a>
+              <!-- single sub item -->
+              <a href="./digital-marketing.html" class="sub_item rounded-lg card cursor-pointer">
+                <div><img class="w-12.4 digital_icon" src="./assets/img/home_img/our_offers_icons/digital.png"
+                    alt="digital-icon"></div>
+                <div>
+                  <p class="font-bold text-dark-500 text-16 flex flex-col">Digital Marketing
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+
+                  </p>
+                </div>
+              </a>
+              <!-- single sub item -->
+              <a href="./ngo_&_banking.html" class="sub_item rounded-lg card cursor-pointer">
+                <div><img class="w-12.4 ngo_icon" src="./assets/img/home_img/our_offers_icons/ngo.png" alt="ngo-icon">
+                </div>
+                <div>
+                  <p class="font-bold text-dark-500 text-16 flex flex-col">NGO & Banking Software
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+
+                  </p>
+                </div>
+              </a>
+              <!-- single sub item -->
+              <a href="./school-managment.html" class="sub_item rounded-lg card cursor-pointer">
+                <div><img class="w-12.4 school_management_icon"
+                    src="./assets/img/home_img/our_offers_icons/school_management.png" alt="school_management-icon">
+                </div>
+                <div>
+                  <p class="font-bold text-dark-500 text-16 flex flex-col">School Management System
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+
+                  </p>
+                </div>
+              </a>
+              <!-- single sub item -->
+              <a href="./cyber-security.html" class="sub_item rounded-lg card cursor-pointer">
+                <div><img class="w-12.4 cyber_icon" src="./assets/img/home_img/our_offers_icons/cyber.png"
+                    alt="cyber-icon"></div>
+                <div>
+                  <p class="font-bold text-dark-500 text-16 flex flex-col">Cyber security
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+
+                  </p>
+                </div>
+              </a>
+
+            </li>
+          </ul>
+        </li>
+        <li><a href="./mission.html" class="nav_item">Mission</a></li>
+        <li><a href="./vission.html" class="nav_item">Vision</a></li>
+        <li><a href="./contact_us.html" class="nav_item">Contact us</a></li>
+      </ul>
+
+      <a href="" class="login_btn hidden ">Login</a>
+
+      <!-- mobile btn -->
+      <!-- <i class="fa-solid fa-bars hamburgur_btn w-5.3 md:w-12.4"></i> -->
+      <svg class="hamburgur_btn w-5.3 md:w-9.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+        <g id="Group_13481" data-name="Group 13481" transform="translate(-109 -47)">
+          <rect id="Rectangle_3158" data-name="Rectangle 3158" width="20" height="20" transform="translate(109 47)"
+            fill="none" />
+          <g id="menu-burger" transform="translate(111 -23.667)">
+            <path id="Path_14360" data-name="Path 14360" d="M15.3,224H.7a.7.7,0,1,0,0,1.391H15.3a.7.7,0,1,0,0-1.391Z"
+              transform="translate(0 -144.463)" />
+            <path id="Path_14361" data-name="Path 14361"
+              d="M.7,76.058H15.3a.7.7,0,1,0,0-1.391H.7a.7.7,0,1,0,0,1.391Z" />
+            <path id="Path_14362" data-name="Path 14362"
+              d="M15.3,373.333H.7a.7.7,0,0,0,0,1.391H15.3a.7.7,0,0,0,0-1.391Z" transform="translate(0 -288.927)" />
+          </g>
+        </g>
+      </svg>
+
+
+      <!-- close btn -->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="mobile_close">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </nav>
+
+
+
+
+    <!-- mobile nav -->
+    <nav class="w-full  mobile_nav">
+
+
+      <ul class="font-normal text-18 text-dark-700 mobile_nav_items flex flex-col gap-4.6">
+        <li class="flex items-center gap-2.7">
+          <svg xmlns="http://www.w3.org/2000/svg" class="home_icon" viewBox="0 0 22 22">
+            <g id="Group_13476" data-name="Group 13476" transform="translate(-35 -73)">
+              <rect id="Rectangle_3159" data-name="Rectangle 3159" width="22" height="22" transform="translate(35 73)"
+                fill="none" />
+              <path id="house-chimney-window"
+                d="M9.332,6.664H6.665A1.334,1.334,0,0,0,5.332,8v2.666A1.334,1.334,0,0,0,6.665,12H9.332a1.334,1.334,0,0,0,1.333-1.333V8A1.334,1.334,0,0,0,9.332,6.664Zm-2.666,4V8H9.332v2.666Zm8-6.849V1.332a.667.667,0,0,0-1.333,0V2.909L9.863.568a3.32,3.32,0,0,0-3.729,0L1.469,3.717A3.327,3.327,0,0,0,0,6.48v6.183A3.336,3.336,0,0,0,3.333,16h9.332A3.336,3.336,0,0,0,16,12.663V6.48a3.327,3.327,0,0,0-1.333-2.666Zm0,8.849a2,2,0,0,1-2,2H3.333a2,2,0,0,1-2-2V6.48a2,2,0,0,1,.881-1.657L6.88,1.674a1.987,1.987,0,0,1,2.237,0l4.666,3.149a2,2,0,0,1,.881,1.657Z"
+                transform="translate(38 76.005)" fill="#212529" />
+            </g>
+          </svg>
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="flex items-center gap-2.7">
+          <svg class="home_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+            <g id="Group_13477" data-name="Group 13477" transform="translate(-24 -145)">
+              <rect id="Rectangle_3159" data-name="Rectangle 3159" width="22" height="22" transform="translate(24 145)"
+                fill="none" />
+              <g id="_01_align_center" data-name="01 align center" transform="translate(27 148)">
+                <path id="Path_14363" data-name="Path 14363"
+                  d="M8,16a8,8,0,1,1,8-8,8,8,0,0,1-8,8ZM8,1.333A6.667,6.667,0,1,0,14.667,8,6.667,6.667,0,0,0,8,1.333Z"
+                  fill="#606b7b" />
+                <path id="Path_14364" data-name="Path 14364"
+                  d="M12.667,16H11.333V11.333H10V10h1.333a1.333,1.333,0,0,1,1.333,1.333Z"
+                  transform="translate(-3.333 -3.333)" fill="#606b7b" />
+                <circle id="Ellipse_209" data-name="Ellipse 209" cx="1" cy="1" r="1" transform="translate(7 3.333)"
+                  fill="#606b7b" />
+              </g>
+            </g>
+          </svg>
+          <a href="./about_us.html">About us</a>
+        </li>
+
+        <li class="">
+          <div class="flex justify-between">
+            <div class="flex items-center gap-2.7">
+              <svg class="service_icon ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.891 16">
+                <g id="Iconly_Light-Outline_Setting" data-name="Iconly/Light-Outline/Setting"
+                  transform="translate(-2 -2.001)">
+                  <g id="Setting" transform="translate(2 2)">
+                    <path id="Combined-Shape"
+                      d="M7.928,1A2.053,2.053,0,0,1,9.984,3.115a.825.825,0,0,0,.117.394.89.89,0,0,0,1.222.32,2.062,2.062,0,0,1,2.811.754l.481.833a.657.657,0,0,1,.032.066,2.064,2.064,0,0,1-.78,2.737.882.882,0,0,0-.327.325.906.906,0,0,0-.093.682.881.881,0,0,0,.417.543,2.05,2.05,0,0,1,.749,2.808l-.513.854a2.058,2.058,0,0,1-2.8.741.919.919,0,0,0-.431-.12h0a.893.893,0,0,0-.619.261.883.883,0,0,0-.26.634A2.062,2.062,0,0,1,7.928,17H6.96A2.059,2.059,0,0,1,4.9,14.944a.831.831,0,0,0-.117-.411A.884.884,0,0,0,3.57,14.2a2.056,2.056,0,0,1-2.813-.791l-.483-.832a2.052,2.052,0,0,1,.749-2.8.9.9,0,0,0,0-1.556,2.06,2.06,0,0,1-.75-2.805L.8,4.558a2.055,2.055,0,0,1,2.8-.746.845.845,0,0,0,.426.121.9.9,0,0,0,.891-.885A2.047,2.047,0,0,1,6.96,1Zm0,1.158H6.96a.888.888,0,0,0-.891.895A2.067,2.067,0,0,1,4.013,5.091a1.992,1.992,0,0,1-1-.28.9.9,0,0,0-1.217.337l-.523.859A.9.9,0,0,0,1.6,7.22a2.056,2.056,0,0,1,0,3.561A.892.892,0,0,0,1.277,12l.487.84A.9.9,0,0,0,3,13.2a2.048,2.048,0,0,1,1.548-.2,2.06,2.06,0,0,1,1.244.958,1.979,1.979,0,0,1,.274.988.9.9,0,0,0,.9.9h.968a.9.9,0,0,0,.9-.893A2.048,2.048,0,0,1,10.886,12.9a2.1,2.1,0,0,1,.99.273.9.9,0,0,0,1.228-.325l.513-.855a.892.892,0,0,0-.329-1.214,2.036,2.036,0,0,1-.959-1.249,2.062,2.062,0,0,1,.209-1.559,2.038,2.038,0,0,1,.75-.748A.9.9,0,0,0,13.61,6a.431.431,0,0,1-.027-.053l-.452-.785a.9.9,0,0,0-1.225-.331A2.049,2.049,0,0,1,9.1,4.1,1.972,1.972,0,0,1,8.827,3.1a.921.921,0,0,0-.254-.675A.9.9,0,0,0,7.928,2.159Zm-.48,4.227A2.615,2.615,0,1,1,4.833,9,2.618,2.618,0,0,1,7.448,6.386Zm0,1.158A1.456,1.456,0,1,0,8.9,9,1.459,1.459,0,0,0,7.448,7.544Z"
+                      transform="translate(0 -1)" fill="#606b7b" fill-rule="evenodd" />
+                  </g>
+                </g>
+              </svg>
+
+              <div class="flex items-center justify-between">
+                <a href="./our_service.html">Our Services</a>
+
+              </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6 mobile_sub_btn">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </div>
+          <!-- sub items -->
+          <div class="mobile_main_sub_container">
+            <ul class="mt-10 grid sm:grid-cols-2   lg:grid-cols-3  gap-5.3  py-5.3 px-5.3">
+
+              <!-- single nav item -->
+              <a href="./website_design_and_dev.html">
+                <li class="mobile_serveice_sub_card rounded-md"> <img class="w-12.4 mx-auto "
+                    src="./assets/img/home_img/our_offers_icons/web.png" alt="web-icon">
+                  <p class="font-bold text-dark-500 text-16 flex flex-col text-center mt-3 ">Web Design & Development
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+                  </p>
+
+                </li>
+              </a>
+              <!-- single nav item -->
+              <a href="./app_development.html">
+                <li class="mobile_serveice_sub_card rounded-md">
+                  <img class="w-12.4 mx-auto " src="./assets/img/home_img/our_offers_icons/aappdev.png"
+                    alt="aappdev-icon">
+
+                  <p class="font-bold text-dark-500 text-16 flex flex-col text-center mt-3">App Development
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+                  </p>
+                </li>
+              </a>
+              <!-- single nav item -->
+              <a href="./graphics_desgin.html">
+                <li class="mobile_serveice_sub_card rounded-md"> <img class="w-12.4 mx-auto "
+                    src="./assets/img/home_img/our_offers_icons/graphics.png" alt="graphics-icon">
+
+                  <p class="font-bold text-dark-500 text-16 flex flex-col text-center mt-3">Graphics Desing
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+                  </p>
+                </li>
+              </a>
+              <!-- single nav item -->
+              <a href="./2dand3d.html">
+                <li class="mobile_serveice_sub_card rounded-md"> <img class="w-12.4 mx-auto "
+                    src="./assets/img/home_img/our_offers_icons/2d3d.png" alt="2d3d-icon">
+
+                  <p class="font-bold text-dark-500 text-16 flex flex-col text-center mt-3 ">2D & 3D Animation
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+                  </p>
+                </li>
+              </a>
+              <!-- single nav item -->
+              <a href="./software-development.html">
+                <li class="mobile_serveice_sub_card rounded-md"> <img class="w-12.4 mx-auto "
+                    src="./assets/img/home_img/our_offers_icons/softdev.png" alt="softdev-icon">
+
+                  <p class="font-bold text-dark-500 text-16 flex flex-col text-center mt-3">Software Development
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+                  </p>
+                </li>
+              </a>
+              <!-- single nav item -->
+              <a href="./erp-seo-pos.html">
+                <li class="mobile_serveice_sub_card rounded-md"> <img class="w-12.4 mx-auto "
+                    src="./assets/img/home_img/our_offers_icons/erp.png" alt="erp-icon">
+
+                  <p class="font-bold text-dark-500 text-16 flex flex-col text-center mt-3">ERP, POS API
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+                  </p>
+                </li>
+              </a>
+              <!-- single nav item -->
+              <a href="./e-commerce.html">
+                <li class="mobile_serveice_sub_card rounded-md"> <img class="w-12.4 mx-auto "
+                    src="./assets/img/home_img/our_offers_icons/e-commerce.png" alt="e-commerce-icon">
+
+                  <p class="font-bold text-dark-500 text-16 flex flex-col text-center mt-3">E-ecommerce Website & App
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+                  </p>
+                </li>
+              </a>
+              <!-- single nav item -->
+              <a href="./digital-marketing.html">
+                <li class="mobile_serveice_sub_card rounded-md"> <img class="w-12.4 mx-auto "
+                    src="./assets/img/home_img/our_offers_icons/digital.png" alt="trafic-icon">
+
+                  <p class="font-bold text-dark-500 text-16 flex flex-col text-center mt-3">Digital Marketing
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+                  </p>
+                </li>
+              </a>
+              <!-- single nav item -->
+              <a href="./ngo_&_banking.html">
+                <li class="mobile_serveice_sub_card rounded-md"> <img class="w-12.4 mx-auto "
+                    src="./assets/img/home_img/our_offers_icons/ngo.png" alt="ngo-icon">
+
+                  <p class="font-bold text-dark-500 text-16 flex flex-col text-center mt-3">NGO & Banking Software
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+                  </p>
+                </li>
+              </a>
+              <!-- single nav item -->
+              <a href="./school-managment.html">
+                <li class="mobile_serveice_sub_card rounded-md"> <img class="w-12.4 mx-auto "
+                    src="./assets/img/home_img/our_offers_icons/school_management.png" alt="school-icon">
+
+                  <p class="font-bold text-dark-500 text-16 flex flex-col text-center mt-3">School Management System
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+                  </p>
+                </li>
+              </a>
+              <!-- single nav item -->
+              <a href="./cyber-security.html">
+                <li class="mobile_serveice_sub_card rounded-md"> <img class="w-12.4 mx-auto "
+                    src="./assets/img/home_img/our_offers_icons/cyber.png" alt="cyber-icon">
+
+                  <p class="font-bold text-dark-500 text-16 flex flex-col text-center mt-3">Cyber security
+                    <span class="font-normal text-13 mt-1.8 text-gray-400">Build your dream website</span>
+                  </p>
+                </li>
+              </a>
+
+
+            </ul>
+          </div>
+        </li>
+        <li class="flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="mission_icon" viewBox="0 0 22 22">
+            <g id="Group_13478" data-name="Group 13478" transform="translate(-24 -229)">
+              <rect id="Rectangle_3160" data-name="Rectangle 3160" width="22" height="22" transform="translate(24 229)"
+                fill="none" />
+              <g id="Layer_32" data-name="Layer 32" transform="translate(24.5 229.5)">
+                <path id="Path_14365" data-name="Path 14365"
+                  d="M28.2,26.79A1.413,1.413,0,1,0,29.616,28.2,1.413,1.413,0,0,0,28.2,26.79Zm0,2.012a.6.6,0,1,1,.6-.6A.6.6,0,0,1,28.2,28.8Z"
+                  transform="translate(-17.703 -17.703)" fill="#606b7b" />
+                <path id="Path_14366" data-name="Path 14366"
+                  d="M18.634,13.66a4.974,4.974,0,1,0,4.974,4.974A4.974,4.974,0,0,0,18.634,13.66Zm0,9.134a4.16,4.16,0,1,1,4.16-4.16A4.16,4.16,0,0,1,18.634,22.794Z"
+                  transform="translate(-8.134 -8.134)" fill="#606b7b" />
+                <path id="Path_14367" data-name="Path 14367"
+                  d="M18.093,10.093H17.027a6.549,6.549,0,0,0-6.121-6.121V2.907a.407.407,0,1,0-.814,0V3.973a6.549,6.549,0,0,0-6.121,6.121H2.907a.407.407,0,1,0,0,.814H3.973a6.549,6.549,0,0,0,6.121,6.121v1.066a.407.407,0,1,0,.814,0V17.027a6.549,6.549,0,0,0,6.121-6.121h1.066a.407.407,0,1,0,0-.814ZM10.5,16.227A5.727,5.727,0,1,1,16.227,10.5,5.727,5.727,0,0,1,10.5,16.227Z"
+                  fill="#606b7b" />
+              </g>
+            </g>
+          </svg>
+          <a href="./mission.html">Mission</a>
+        </li>
+        <li class="flex items-center gap-2">
+          <svg class="mission_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+            <g id="Group_13479" data-name="Group 13479" transform="translate(-24 -271)">
+              <rect id="Rectangle_3160" data-name="Rectangle 3160" width="22" height="22" transform="translate(24 271)"
+                fill="none" />
+              <path id="goal"
+                d="M14.276,5.52h-.786V3.768l2.251-1.126a.469.469,0,0,0,0-.839L13.23.549a.469.469,0,0,0-.678.419V5.52h-.786a1.726,1.726,0,0,0-1.724,1.724V8.867h-3.3A1.726,1.726,0,0,0,5.02,10.591v.837a.787.787,0,0,1-.786.786H1.724A1.726,1.726,0,0,0,0,13.939v.837A1.726,1.726,0,0,0,1.724,16.5H14.276A1.726,1.726,0,0,0,16,14.775V7.244A1.726,1.726,0,0,0,14.276,5.52Zm-.786-3.794.994.5-.994.5Zm1.573,13.049a.787.787,0,0,1-.786.786H1.724a.787.787,0,0,1-.786-.786v-.837a.787.787,0,0,1,.786-.786h2.51a1.726,1.726,0,0,0,1.724-1.724v-.837A.787.787,0,0,1,6.744,9.8H10.51a.473.473,0,0,0,.469-.494V7.244a.787.787,0,0,1,.786-.786h2.51a.787.787,0,0,1,.786.786Zm0,0"
+                transform="translate(27 273.501)" fill="#606b7b" />
+            </g>
+          </svg>
+          <a href="./vission.html">Vision</a>
+        </li>
+        <li class="flex items-center gap-2.7">
+          <svg class="contact_icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+            <g id="Group_13480" data-name="Group 13480" transform="translate(-24 -313)">
+              <rect id="Rectangle_3160" data-name="Rectangle 3160" width="22" height="22" transform="translate(24 313)"
+                fill="none" />
+              <path id="support"
+                d="M9.614,28.807a1,1,0,0,0-1-1H7.387a1,1,0,1,0,0,2H8.613A1,1,0,0,0,9.614,28.807ZM2.105,26.225a4.336,4.336,0,0,0,.573.008,2.842,2.842,0,0,0,2.789,2.293h.382a1.571,1.571,0,0,0,0,.563H5.467a3.4,3.4,0,0,1-3.362-2.863Zm-.286-.6A2.182,2.182,0,0,1,0,23.475V22.146a2.182,2.182,0,0,1,2.182-2.182h.145a5.692,5.692,0,0,1,11.346,0h.145A2.182,2.182,0,0,1,16,22.146v1.329a2.182,2.182,0,0,1-2.182,2.182h-.644a.483.483,0,0,1-.483-.483V20.42a4.691,4.691,0,0,0-9.382,0v4.753a.483.483,0,0,1-.265.432,2.951,2.951,0,0,1-1.225.021Z"
+                transform="translate(27 301.271)" fill="#606b7b" fill-rule="evenodd" />
+            </g>
+          </svg>
+
+          <a class="" href="./contact_us.html">Contact us</a>
+        </li>
+
+        <li class=" text-center mt-7">
+          <a href="" class="login_btn w-full  login_btn_container">Login</a>
+        </li>
+
+
+      </ul>
+    </nav>
+  </header>
+  <!-- header section  end-->
+
+  <main class="root">
+    <!-- Why you will choose our software? -->
+    <section class="offer_section  pt-14 md:pt-28.5">
+      <div class="section_container overflow-hidden">
+        <div class="section_header">
+          <h2 class="section_title font-bold text-28 md:text-40 leading-40 md:leading-60 text-center max-w-450 mx-auto"
+            data-aos="fade-right" data-aos-duration="1000">
+            Need a reason for choosing our software?
+          </h2>
+
+        </div>
+
+        <div class="our_offers mt-14.9 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
+          <!-- web design and development -->
+          <div class="single_offer" data-aos="fade-right" data-aos-duration="1000">
+            <div class="blue_gradient_31 px-5 pt-5.2 pb-4.7 md:pt-9.9 md:pb-12.2  border-radius-18 cursor-pointer card">
+              <img class="offer_icon mx-auto web_icon" src="./assets/img/home_img/our_offers_icons/web.png" alt="" />
+              <h3 class="our_offer_ttile mt-3.4 md:mt-7 font-bold text-21  xl:text-28 text-center">
+                Web Design & Development
+              </h3>
+              <p class="offer_info text-gray-400 leading-27px text-sm  xl:text-lg font-light">
+                We have web design & development services that involve everything related to furnishing a web-based
+                solution that is user-friendly, responsive, and mesmerizing.
+              </p>
+            </div>
+          </div>
+          <!-- School Management System -->
+          <div class="single_offer" data-aos="fade-up" data-aos-duration="1000">
+            <div class="blue_gradient_32 px-5 pt-5.2 pb-4.7 md:pt-9.9 md:pb-12.2  border-radius-18 cursor-pointer card">
+              <img class="offer_icon mx-auto school_management_icon"
+                src="./assets/img/home_img/our_offers_icons/school_management.png" alt="" />
+              <h3 class="our_offer_ttile mt-3.4 md:mt-7 font-bold text-21  xl:text-28  text-center">
+                School Management System
+              </h3>
+              <p class="offer_info text-gray-400 leading-27px text-sm  xl:text-lg font-light">
+                Bongo IT Limited company is a platform to supply a tremendous amount of school management systems with
+                the benefits of apps/web/software etc any services.
+              </p>
+            </div>
+          </div>
+          <!-- Apps Development -->
+          <div class="" data-aos="fade-left" data-aos-duration="1000">
+            <div>
+              <div
+                class="blue_gradient_33 px-5 pt-5.2 pb-4.7 md:pt-9.9 md:pb-12.2  border-radius-18 cursor-pointer card">
+                <img class="offer_icon mx-auto app_dev_icon" src="./assets/img/home_img/our_offers_icons/aappdev.png"
+                  alt="" />
+                <h3 class="our_offer_ttile mt-3.4 md:mt-7 font-bold text-21  xl:text-28 text-center">
+                  Apps Development
+                </h3>
+                <p class="offer_info text-gray-400 leading-27px text-sm  xl:text-lg font-light">
+                  We innovate outstanding application software to expand your business countrywide with accessible and
+                  enticing functional systems each time.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- NGO & Banking Software-->
+          <div class="single_offer" data-aos="fade-right" data-aos-duration="1000">
+            <div class="blue_gradient_34 px-5 pt-5.2 pb-4.7 md:pt-9.9 md:pb-12.2  border-radius-18 cursor-pointer card">
+              <img class="offer_icon mx-auto ngo_icon" src="./assets/img/home_img/our_offers_icons/ngo.png" alt="" />
+              <h3 class="our_offer_ttile mt-3.4 md:mt-7 font-bold text-21  xl:text-28 text-center">
+                NGO & Banking Software
+              </h3>
+              <p class="offer_info text-gray-400 leading-27px text-sm  xl:text-lg font-light">
+                We built the secured and obtainable software for your organization that is easily manageable from
+                anywhere as a trusted field for your NGO and Banking systems.
+              </p>
+            </div>
+          </div>
+          <!-- Graphic Design -->
+          <div class="single_offer" data-aos="fade-up" data-aos-duration="1000">
+            <div class="blue_gradient_35 px-5 pt-5.2 pb-4.7 md:pt-9.9 md:pb-12.2  border-radius-18 cursor-pointer card">
+              <img class="offer_icon mx-auto graphics_icon" src="./assets/img/home_img/our_offers_icons/graphics.png"
+                alt="" />
+              <h3 class="our_offer_ttile mt-3.4 md:mt-7 font-bold text-21  xl:text-28 text-center">
+                Graphics Design
+              </h3>
+              <p class="offer_info text-gray-400 leading-27px  text-sm  xl:text-lg  font-light">
+                We develop the overall layout and production of graphical designs for your business products with
+                enchantment looks to spread your business growth upward.
+              </p>
+            </div>
+          </div>
+          <!-- ERP, SEO, POS API info. -->
+          <div class="single_offer" data-aos="fade-left" data-aos-duration="1000">
+            <div class="blue_gradient_36 px-5 pt-5.2 pb-4.7 md:pt-9.9 md:pb-12.2  border-radius-18 cursor-pointer card">
+              <img class="offer_icon mx-auto erp_icon" src="./assets/img/home_img/our_offers_icons/erp.png" alt="" />
+              <h3 class="our_offer_ttile mt-3.4 md:mt-7 font-bold text-21 xl:text-28 text-center">
+                ERP, SEO, POS API info
+              </h3>
+              <p class="offer_info text-gray-400 leading-27px  text-sm  xl:text-lg  font-light">
+                We are doing ERP, SEO, POS, and API Integration to authorize your software and management systems to
+                enable the automation of sales orders, inventory, and customer details.
+              </p>
+            </div>
+          </div>
+          <!-- E-ecommerce Website & App -->
+          <div class="single_offer" data-aos="fade-right" data-aos-duration="1000">
+            <div class="blue_gradient_37 px-5 pt-5.2 pb-4.7 md:pt-9.9 md:pb-12.2  border-radius-18 cursor-pointer card">
+              <img class="offer_icon mx-auto e_commerce_icon"
+                src="./assets/img/home_img/our_offers_icons/e-commerce.png" alt="" />
+              <h3 class="our_offer_ttile mt-3.4 md:mt-7 font-bold text-21 xl:text-28 text-center">
+                E-ecommerce Website & App
+              </h3>
+              <p class="offer_info text-gray-400 leading-27px  text-sm  xl:text-lg  font-light">
+                We are here to deliver you the best hypnotic websites and apps with an accessible and convenient
+                management system with innovative designs and punctuality systems.
+              </p>
+            </div>
+          </div>
+          <!-- Software Development -->
+          <div class="single_offer" data-aos="fade-up" data-aos-duration="1000">
+            <div class="">
+              <div
+                class="sun_gradient_27 px-5 pt-5.2 pb-4.7 md:pt-9.9 md:pb-12.2  border-radius-18 cursor-pointer card">
+                <img class="offer_icon mx-auto soft_dev_icon" src="./assets/img/home_img/our_offers_icons/softdev.png"
+                  alt="" />
+                <h3 class="our_offer_ttile mt-3.4 md:mt-7 font-bold text-21 xl:text-28 text-center">
+                  Software Development
+                </h3>
+                <p class="offer_info text-gray-400 leading-27px  text-sm  xl:text-lg  font-light">
+                  We have a reputation in the field of software development which is interactive and maintained with
+                  proper security with huge functions and opportunities to update.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 2D & 3D Animation -->
+          <div class="single_offer" data-aos="fade-left" data-aos-duration="1000">
+            <div class="red_gradient_22 px-5 pt-5.2 pb-4.7 md:pt-9.9 md:pb-12.2  border-radius-18 cursor-pointer card ">
+              <img class="offer_icon mx-auto towd_3d_icon" src="./assets/img/home_img/our_offers_icons/2d3d.png"
+                alt="" />
+              <h3 class="our_offer_ttile mt-3.4 md:mt-7 font-bold text-21 xl:text-28 text-center">
+                2D & 3D Animation
+              </h3>
+              <p class="offer_info text-gray-400 leading-27px  text-sm  xl:text-lg  font-light">
+                Our most creative and optimistic animators build skeletal structures with dynamic and more realistic 2D
+                & 3D animation services with the perfect fascination.
+              </p>
+            </div>
+          </div>
+          <!-- Cyber Sequrity-->
+          <div class="single_offer" data-aos="fade-right" data-aos-duration="1000">
+            <div class="sun_gradient_28 px-5 pt-5.2 pb-4.7 md:pt-9.9 md:pb-12.2  rounded-lg cursor-pointer card">
+              <img class="offer_icon mx-auto cyber_icon" src="./assets/img/home_img/our_offers_icons/cyber.png"
+                alt="" />
+              <h3 class="our_offer_ttile mt-3.4 md:mt-7 font-bold text-21 xl:text-28 text-center">
+                Cyber Sequrity
+              </h3>
+              <p class="offer_info text-gray-400 leading-27px  text-sm  xl:text-lg  font-light">
+                We provide every service with the strongest security guarantee to give you the finest-secured
+                functionality consisting of the best-secured server in the meantime.
+              </p>
+            </div>
+          </div>
+          <!--Digital Marketing -->
+          <div class="single_offer" data-aos="fade-up" data-aos-duration="1000">
+            <div class="red_gradient_23 px-5 pt-5.2 pb-4.7 md:pt-9.9 md:pb-12.2  border-radius-18 cursor-pointer card">
+              <img class="offer_icon mx-auto digital_icon" src="./assets/img/home_img/our_offers_icons/digital.png"
+                alt="" />
+              <h3 class="our_offer_ttile mt-3.4 md:mt-7 font-bold text-21 xl:text-28 text-center">
+                Digital Marketing
+              </h3>
+              <p class="offer_info text-gray-400 leading-27px  text-sm  xl:text-lg  font-light">
+                We have superintended and modern virtual entrepreneurs to present you with the contemporary systematic
+                advertising manner to unfold your enterprise responsibly and effectively.
+              </p>
+            </div>
+          </div>
+          <!--uploading-->
+          <div class="single_offer" data-aos="fade-up" data-aos-duration="1000">
+            <div class="blue_gradient_34 px-1  py-4.7 md:pt-19.6 md:pb-12.2  border-radius-18 cursor-pointer card">
+              <img class="offer_icon mx-auto " src="./assets/img/home_img/our_offers_icons/loading.png" alt="loading" />
+              <h3
+                class="our_offer_ttile mt-3.4 md:mt-7 font-bold text-21 xl:text-28 text-center px-17.3 leading-42px text-dark-700">
+                Upcoming more
+                Service
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Integrations Why Choose Us -->
+    <section class="pt-14 md:pt-28.8">
+      <div class="section_container ">
+        <div class="section_header">
+          <h2 class="section_title font-bold  text-24 md:text-3xl lg:text-40 text-center" data-aos="fade-right"
+            data-aos-duration="1000">
+            Cause to pick our software
+          </h2>
+          <div class="choose_us_container mt-4.1 lg:mt-14.6 grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+            <!-- single card -->
+            <div
+              class="blue_gradient_34 	border-radius-18 single_choose_us  py-9.5 lg:pb-14.1 px-4 lg:px-5.3 card cursor-pointer">
+              <div class="w-17.3 lg:w-128 mx-auto ">
+                <img class="storage_icon" src="./assets/img/about-us/choose_us_icon/storage.png" alt="security icon">
+              </div>
+              <div class="text-center">
+                <h3 class="our_offer_ttile  font-bold text-21 lg:text-28 text-dark-500 mt-9.7">
+                  Cloud Storage & Server
+                </h3>
+                <p class="mt-4.5  text-gray-400 leading-27px text-sm lg:text-lg font-light">
+                  Get our cloud storage and server solutions to prevent your business from ransomware attacks which are
+                  growing up over in multiple dimensions.
+
+                </p>
+              </div>
+
+            </div>
+            <!-- single card -->
+            <div
+              class="blue_gradient_36 	border-radius-18 single_choose_us  py-9.5 lg:pb-14.1 px-4 lg:px-5.3 card cursor-pointer">
+              <div class=" w-17.3 lg:w-128 mx-auto ">
+                <img class="tracker_icon" src="./assets/img/about-us/choose_us_icon/tracker.png" alt="tracker icon">
+              </div>
+              <div class="text-center">
+                <h3 class="our_offer_ttile  font-bold text-21 lg:text-28 text-dark-500 mt-9.7">
+                  Real Time Tracker
+                </h3>
+                <p class="mt-4.5  text-gray-400 leading-27px text-sm lg:text-lg font-light">
+                  Take our real-time tracking systems for your business to continue your highly qualified features to be
+                  able to move on to the competitive market.
+                </p>
+              </div>
+
+            </div>
+            <!-- single card -->
+            <div
+              class="blue_gradient_31 	border-radius-18 single_choose_us py-9.5 lg:pb-14.1 px-4 lg:px-5.3 lg:pt-12.5 card cursor-pointer">
+              <div class="w-17.3 lg:w-128 mx-auto ">
+                <img class="support_icon" src="./assets/img/about-us/choose_us_icon/support.png" alt="support-icon">
+              </div>
+              <div class="text-center">
+                <h3 class="our_offer_ttile  font-bold text-21 lg:text-28  text-dark-500 mt-5.3">
+                  Multi Device Supported
+                </h3>
+                <p class="mt-4.5  text-gray-400 leading-27px text-sm lg:text-lg font-light">
+                  We have a talented pros to our company who are capable of doing each project for your business to
+                  support every types of devices to spread up further.
+                </p>
+
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <!--You'll fall in love with our services -->
+    <section class=" pt-14 md:pt-28.8 pb-28.8">
+      <div class="section_container ">
+        <div
+          class="bg-white border-radius-12 w-full pt-5.6 pb-16.5 solution_info text-center  px-3 lg:px-40 relative box_shadow_6">
+          <div class=" w-14 md:max-w-120 m-auto ">
+            <img class="" src="./assets/img/home_img/email.png" alt="email" />
+          </div>
+          <div class="overflow-hidden">
+            <h5 class="text-xl md:text-3xl font-bold mt-7 " data-aos="fade-left" data-aos-duration="1000">
+
+              You'll fall in love with our services
+            </h5>
+          </div>
+          <p class="text-sm lg:text-18 font-normal mt-4.6 text-gray-400 overflow-hidden" data-aos="fade-right"
+            data-aos-duration="1000">
+            Bongo IT Limited's creative squad is too much power to make any dreams or demands come to real life with the
+            all-over scope and facilities together. We are non-compromisable for the security assurance for each IT
+            solution.
+          </p>
+          <div class="mt-5.3 mx-auto contact_us_btn font-bold  group text-18 max-w-166">
+            <a href="./contact_us.html"
+              class="flex gap-x-0.5	green_bg_gradient pl-7 py-2 lg:py-3 rounded-md text-white"> <span> Contact
+                Us</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="get_start_arrow w-4.4 ml-1.6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg> </a>
+
+          </div>
+
+          <!-- left -->
+          <img class="left_shadow absolute hidden 2xl:block" src="./assets/img/home_img/left_shadow.png" alt="" />
+          <img class="right_shadow absolute hidden 2xl:block" src="./assets/img/home_img/right_shadow.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- scrool top btn -->
+    <div class="scool_top_btn">
+      <i class="fa-solid fa-arrow-up" id="scroll_btn"></i>
+    </div>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="footer pt-10 lg:pt-29 pb-10 ">
+    <div class="section_container">
+      <div class="footer_info_main grid xsm:grid-cols-2 lg:grid-cols-5 gap-x-20 gap-y-10">
+        <!-- left -->
+        <div class="company_info">
+          <div class="footer_logo m-1.5	">
+            <img src="./assets/img/logo/logo.png" alt="bongoit-logo" />
+          </div>
+          <div class="flex gap-x-2.5	 items-center  mt-7">
+            <img class="w-4.7 h-4.7" src="./assets/img/home_img/footer/person.png" alt="contact-icon" />
+            <h5 class="text-21 text-dark-500 font-normal">Get support</h5>
+
+
+          </div>
+
+          <!-- <p >+88-02222243383</p> -->
+          <a class="text-16 mt-3.6 font-normal text-dark-500 " href="tel:+88-02222243383">+88-02222243383</a>
+
+          <!-- social icon -->
+          <div class="social_icons flex gap-5 mt-4.7">
+            <a target="_blank" href="https://www.facebook.com/bongoitltd">
+              <img class="fb_icon transition" src="./assets/img/home_img/footer/facebook.png" alt="facebook-icon" /></a>
+            <a target="_blank" href="https://www.linkedin.com/company/bongoitlimited/">
+              <img class="linkdin_icon transition" src="./assets/img/home_img/footer/linkdin.png"
+                alt="linkdin-icon" /></a>
+            <a target="_blank" href="https://www.youtube.com/@bongoitlimited">
+              <img class="youtube_icon transition" src="./assets/img/home_img/footer/youtube.png"
+                alt="youtube-icon" /></a>
+          </div>
+        </div>
+        <!-- middel -->
+        <div class="">
+          <h5 class="font-bold text-lg lg:text-xl text-dark-500 ">Quick Link</h5>
+          <ul class="text-gray-400 mt-7 flex flex-col gap-4 font-normal text-sm lg:text-16 text">
+            <li>
+              <a class="hover:text-green-500 transition footer_list" href="./index.html">Home</a>
+            </li>
+            <li class="hover:green-500 ">
+              <a class="hover:text-green-500 transition footer_list" href="./about_us.html">About us</a>
+            </li>
+            <li>
+              <a class="hover:text-green-500  transition footer_list" href="./our_service.html">Our Services</a>
+            </li>
+            <li>
+              <a class="hover:text-green-500  transition footer_list" href="./mission.html">Mission</a>
+            </li>
+            <li>
+              <a class="hover:text-green-500  transition footer_list" href="./vission.html">Vision</a>
+            </li>
+            <li>
+              <a class="hover:text-green-500  transition footer_list" href="./contact_us.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <!-- middel support -->
+        <div class="">
+          <h5 class="font-bold text-lg lg:text-xl  text-dark-500">Support</h5>
+          <ul class="text-gray-400 mt-7 flex flex-col gap-4 font-normal">
+            <li>
+              <a class="hover:text-green-500  transition footer_list" href="#">Privacy Policy <span
+                  class="text-red-700">*</span></a>
+            </li>
+            <li>
+              <a class="hover:text-green-500  transition footer_list" href="#">Terms of conditions<span
+                  class="text-red-700">*</span></a>
+            </li>
+            <li>
+              <a class="hover:text-green-500  transition footer_list" href="#">Support Policy <span
+                  class="text-red-700">*</span></a>
+            </li>
+            <li>
+              <a class="hover:text-green-500  transition" href="#">Blog <span class="text-red-700">*</span></a>
+            </li>
+            <li>
+              <a class="hover:text-green-500  transition" href="#">Career <span class="text-red-700">*</span></a>
+            </li>
+          </ul>
+        </div>
+        <!-- Subscribe to our newsletter -->
+        <div class="subscribe_container">
+          <h5 class="font-bold text-lg lg:text-xl  text-dark-500 ">
+            Subscribe to our newsletter
+          </h5>
+
+          <form class="input_wrapper lg:flex items-center relative mt-4.6" action="">
+            <input
+              class="text-sm block  border-radius-6  placeholder-gray-600 placeholder-opacity-100 subscribe_input py-2 px-3  lg:py-3 lg:pl-3 w-full"
+              type="text" placeholder="Enter your email" />
+            <button type="submit"
+              class="send_btn green_bg_gradient lg:absolute  border-radius-6  mt-3 lg:mt-0 md:text-lg text-white font-bold flex justify-center items-center">
+              Send
+            </button>
+          </form>
+
+          <h5 class="font-bold text-lg lg:text-xl  text-dark-500 mt-12.6 lg:mt-4.6  ">
+            Company Address
+          </h5>
+
+          <a target="_blank" href="https://goo.gl/maps/HtKwaF25z9NUnyhB6">
+            <p class="text-sm lg:text-16 text-gray-400 leading-8  mt-3.6  font-normal lg:max-w-263 leading-30px">
+              Shyamoli Square Complex Southern- Building, Level-4, 24/1,
+              Khilji Road, Shyamoli, 1207 Dhaka, Dhaka Division, Bangladesh
+            </p>
+          </a>
+          <a class="block text-sm mt-2 lg:text-16 text-gray-400  font-normal"
+            href="mailto:bongoitlimited@gmail.com">bongoitlimited@gmail.com</a>
+
+
+        </div>
+      </div>
+      <p class="text-center text-gray-400 font-normal mt-10 lg:mt-20 text-sm  lg:text-16">
+        Copyright © <span id="copYear"></span> Bongo IT Limited. All right reserved
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="./assets/JS/index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
