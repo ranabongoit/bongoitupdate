@@ -50,7 +50,7 @@
     /* transform: translate(-50%, 46%); */
   }
   .pos_download {
-    transform: translate(-50%, 7%);
+    transform: translate(-50%, 7px);
   }
 }
 
@@ -90,6 +90,9 @@
   .seo_btn {
     transform: translate(-50%, 5%);
   }
+  .pos_btn {
+    transform: translate(-50%, 24%);
+  }
 }
 
 @media (min-width: 1104px) {
@@ -122,12 +125,16 @@
     transform: translateX(379px);
   }
   .erp_download_btn {
-    transform: translate(-50%, 15%);
+    transform: translate(-50%, 21px);
+  }
+
+  .seo_btn {
+    transform: translate(-50%, 7%);
   }
   .pos_btn {
-    transform: translate(-50%, 11%);
+    transform: translate(-50%, 26%);
   }
-  .seo_btn {
+  .erp_btnn {
     transform: translate(-50%, 7%);
   }
 }
@@ -151,6 +158,9 @@
   }
   .submenu_shape:after {
     transform: translateX(537px);
+  }
+  .erp_download_btn {
+    transform: translate(-50%, 4px);
   }
 }
 @media (min-width: 1536px) {
